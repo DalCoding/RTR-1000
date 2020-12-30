@@ -1,4 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="5dp"
+    app:cardUseCompatPadding="true">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/alarm2UserProfileImg"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/squirrel" />
+
+
+        <TextView
+            android:id="@+id/alarm2UserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/alarm2UserProfileImg"
+            android:text="uername"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/alarm2UserLevel"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="12dp"
+            android:layout_toRightOf="@+id/alarm2UserName"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/graduationhat" />
+
+        <TextView
+            android:id="@+id/alarm2Contents"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/alarm2UserName"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/alarm2UserProfileImg"
+            android:text="'제목(8글자)'에 코멘트를 남겼습니다."
+            android:textSize="16sp" />
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+<!--
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
@@ -6,9 +64,10 @@
     android:orientation="vertical">
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/alarmList"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         app:cardCornerRadius="10dp"
         app:cardElevation="5dp"
         app:cardUseCompatPadding="true">
@@ -16,12 +75,12 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="match_parent">
 
             <de.hdodenhof.circleimageview.CircleImageView
-                android:id="@+id/profileImg"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:id="@+id/alarm1ProfileImg"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginRight="5dp"
@@ -32,13 +91,14 @@
 
 
             <RelativeLayout
+                android:id="@+id/alarm1Contents"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
-                android:layout_toRightOf="@+id/profileImg">
+                android:layout_toRightOf="@+id/alarm1ProfileImg">
 
                 <TextView
-                    android:id="@+id/alarmUserName"
+                    android:id="@+id/alarm1UserName"
                     android:layout_width="wrap_content"
                     android:layout_height="20dp"
                     android:layout_marginLeft="5dp"
@@ -47,32 +107,32 @@
                     android:textSize="18sp" />
 
                 <ImageView
-                    android:id="@+id/alarmUserLevel"
+                    android:id="@+id/alarm1UserLevel"
                     android:layout_width="20dp"
                     android:layout_height="20dp"
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="12dp"
-                    android:layout_toRightOf="@+id/alarmUserName"
+                    android:layout_toRightOf="@+id/alarm1UserName"
                     app:srcCompat="@drawable/graduationhat" />
 
-                <TextView
+                &lt;!&ndash;<TextView
                     android:layout_width="wrap_content"
                     android:layout_height="20dp"
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="10dp"
                     android:layout_toRightOf="@+id/alarmUserLevel"
                     android:text="님이"
-                    android:textSize="18sp" />
+                    android:textSize="18sp" />&ndash;&gt;
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="20dp"
-                    android:layout_below="@+id/alarmUserName"
+                    android:layout_below="@+id/alarm1UserName"
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="5dp"
                     android:layout_marginBottom="10dp"
-                    android:text="'제목(8글자)'에 코멘트를 남겼습니다."
-                    android:textSize="18sp" />
+                    android:text="'제목제목제목제목'에 코멘트를 남겼습니다."
+                    android:textSize="16sp" />
 
             </RelativeLayout>
 
@@ -80,4 +140,4 @@
 
     </androidx.cardview.widget.CardView>
 
-</LinearLayout>
+</LinearLayout>-->

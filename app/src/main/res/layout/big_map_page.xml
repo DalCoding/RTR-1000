@@ -47,14 +47,14 @@
         android:layout_gravity="center_horizontal">
 
         <android.widget.Button
-            android:id="@+id/button"
+            android:id="@+id/thisMapBtn"
             android:layout_width="150dp"
             android:layout_height="50dp"
             android:background="@drawable/ripple_custom"
             android:text="이 지도에서 찾기" />
 
         <ImageButton
-            android:id="@+id/imageButton"
+            android:id="@+id/myLocationBtn"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginLeft="10dp"

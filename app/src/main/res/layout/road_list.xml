@@ -12,17 +12,18 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/dtrRoad"
+            android:id="@+id/dtr_Road"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:text="도토리 길"
             android:textColor="#442428"
-            android:textSize="20sp"
+            android:textSize="18sp"
             android:textStyle="bold" />
     </LinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/DtrRoadList"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 

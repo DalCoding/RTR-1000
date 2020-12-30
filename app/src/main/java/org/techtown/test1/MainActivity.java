@@ -35,6 +35,5 @@ public class MainActivity extends AppCompatActivity {
 
         FloatingActionButton button = findViewById(R.id.mainFloatingBtn);
 
-
     }
 }

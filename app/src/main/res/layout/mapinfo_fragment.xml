@@ -6,7 +6,7 @@
     android:background="@drawable/fragment_lines">
 
     <TextView
-        android:id="@+id/road_title"
+        android:id="@+id/mapRoadTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
@@ -14,14 +14,14 @@
         android:ellipsize="end"
         android:maxLines="10"
         android:text="길 제목"
-        android:textSize="22sp" />
+        android:textSize="18sp" />
 
     <android.widget.Button
-        android:id="@+id/picked_road"
+        android:id="@+id/mapPickedRoad"
         android:layout_width="wrap_content"
         android:layout_height="30dp"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="15dp"
         android:layout_marginRight="20dp"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
@@ -30,36 +30,36 @@
         android:textSize="18sp" />
 
     <TextView
-        android:id="@+id/acorn_name"
+        android:id="@+id/mapDtrName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/road_title"
+        android:layout_below="@+id/mapRoadTitle"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="5dp"
         android:text="도토리 이름"
-        android:textSize="22sp" />
+        android:textSize="18sp" />
 
     <TextView
-        android:id="@+id/period_road"
+        android:id="@+id/mapRoadPeriod"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/acorn_name"
+        android:layout_below="@+id/mapDtrName"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="5dp"
         android:layout_marginBottom="10dp"
         android:text="소요 시간"
-        android:textSize="22sp" />
+        android:textSize="18sp" />
 
     <TextView
-        android:id="@+id/partner_whether"
+        android:id="@+id/mapIsPartner"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/picked_road"
+        android:layout_below="@+id/mapPickedRoad"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:layout_marginRight="100dp"
         android:layout_marginBottom="10dp"
         android:text="동반 여부"
-        android:textSize="22sp" />
+        android:textSize="18sp" />
 
 </RelativeLayout>

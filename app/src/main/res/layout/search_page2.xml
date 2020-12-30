@@ -11,7 +11,7 @@
 
 
         <EditText
-            android:id="@+id/search_edit3"
+            android:id="@+id/search2Edit"
             android:layout_width="wrap_content"
             android:layout_height="40dp"
             android:layout_marginTop="10dp"
@@ -24,7 +24,7 @@
             android:paddingLeft="5dp" />
 
         <ImageButton
-            android:id="@+id/search_btn"
+            android:id="@+id/search2Btn"
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_marginTop="10dp"
@@ -34,6 +34,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/search2SortingLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -42,7 +43,7 @@
         android:background="@drawable/fragment_lines" >
 
         <android.widget.Button
-            android:id="@+id/search_tag"
+            android:id="@+id/sortingBtn1"
             android:layout_width="50dp"
             android:layout_height="40dp"
             android:layout_weight="1"
@@ -53,7 +54,7 @@
             android:textSize="18sp" />
 
         <android.widget.Button
-            android:id="@+id/search_tag2"
+            android:id="@+id/sortingBtn2"
             android:layout_width="50dp"
             android:layout_height="40dp"
             android:layout_weight="1"
@@ -64,7 +65,7 @@
             android:textSize="18sp" />
 
         <android.widget.Button
-            android:id="@+id/search_tag3"
+            android:id="@+id/sortingBtn3"
             android:layout_width="50dp"
             android:layout_height="40dp"
             android:layout_weight="1"
@@ -77,6 +78,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/search2MainLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="10"
@@ -84,7 +86,7 @@
 
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/search_list_cardView"
+            android:id="@+id/search2MainList"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center_horizontal">
@@ -98,7 +100,7 @@
         android:orientation="vertical">
 
         <android.widget.Button
-            android:id="@+id/expand_list_btn"
+            android:id="@+id/search2ExpandBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
@@ -112,6 +114,6 @@
             android:paddingRight="20dp"
             android:text="결과 더보기"
             android:textColor="#442428"
-            android:textSize="22sp" />
+            android:textSize="18sp" />
     </LinearLayout>
 </LinearLayout>

@@ -14,6 +14,7 @@
         app:srcCompat="@drawable/bridge" />
 
     <LinearLayout
+        android:id="@+id/roadContentsLayout"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:layout_toRightOf="@id/roadImg"
@@ -47,13 +48,14 @@
             android:gravity="center_vertical">
 
             <TextView
-                android:id="@+id/userName"
+                android:id="@+id/roadUserName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="닉네임"
                 android:textSize="18sp"/>
 
             <ImageView
+                android:id="@+id/roadUserLevel"
                 android:layout_width="20dp"
                 android:layout_height="20dp"
                 android:scaleType="fitXY"

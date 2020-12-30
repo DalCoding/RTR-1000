@@ -12,7 +12,7 @@
         <FrameLayout
             android:id="@+id/mainSearchLayout"
             android:layout_width="360dp"
-            android:layout_height="50dp"
+            android:layout_height="40dp"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"
             android:background="@drawable/search_radius">
@@ -20,7 +20,7 @@
             <EditText
                 android:id="@+id/mainSearchEdit"
                 android:layout_width="300dp"
-                android:layout_height="40dp"
+                android:layout_height="30dp"
                 android:layout_gravity="center_vertical"
                 android:layout_marginLeft="10dp"
                 android:background="@null"
@@ -28,8 +28,8 @@
 
             <ImageButton
                 android:id="@+id/mainSearchBtn"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
                 android:layout_gravity="right|center_vertical"
                 android:layout_marginRight="10dp"
                 android:background="@drawable/search_drawable" />
@@ -38,7 +38,7 @@
         <FrameLayout
             android:id="@+id/mainMapLayout"
             android:layout_width="360dp"
-            android:layout_height="300dp"
+            android:layout_height="230dp"
             android:layout_below="@id/mainSearchLayout"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="30dp"
@@ -63,7 +63,7 @@
             android:layout_width="360dp"
             android:layout_height="wrap_content"
             android:layout_below="@+id/mainMapLayout"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="40dp"
             android:layout_centerHorizontal="true">
 
             <TextView
@@ -72,7 +72,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/mainMapLayout"
                 android:text="도토리 길"
-                android:textSize="22sp"
+                android:textSize="20sp"
                 android:textStyle="bold" />
 
             <ImageButton
@@ -88,7 +88,7 @@
         <FrameLayout
             android:id="@+id/mainRoadListLayout"
             android:layout_width="360dp"
-            android:layout_height="100dp"
+            android:layout_height="wrap_content"
             android:layout_below="@+id/mainRoadLayout"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="5dp"
@@ -96,8 +96,8 @@
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/mainRoadList"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
 
         </FrameLayout>
 
@@ -106,7 +106,7 @@
             android:layout_width="360dp"
             android:layout_height="wrap_content"
             android:layout_below="@+id/mainRoadListLayout"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="40dp"
             android:layout_centerHorizontal="true">
 
             <TextView
@@ -115,7 +115,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/mainMapLayout"
                 android:text="다람쥐 이야기"
-                android:textSize="22sp"
+                android:textSize="20sp"
                 android:textStyle="bold" />
 
             <ImageButton
@@ -132,7 +132,7 @@
         <FrameLayout
             android:id="@+id/mainStoryLayout"
             android:layout_width="360dp"
-            android:layout_height="100dp"
+            android:layout_height="wrap_content"
             android:layout_below="@+id/mainStoryListLayout"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="5dp"
@@ -141,8 +141,8 @@
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/mainStoryList"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
 
         </FrameLayout>
 
