@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/fragment_lines">
+
+    <TextView
+        android:id="@+id/road_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:ellipsize="end"
+        android:maxLines="10"
+        android:text="길 제목"
+        android:textSize="22sp" />
+
+    <android.widget.Button
+        android:id="@+id/picked_road"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@drawable/ripple_custom"
+        android:text="해당 길 보기"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/acorn_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/road_title"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:text="도토리 이름"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/period_road"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/acorn_name"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:text="소요 시간"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/partner_whether"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/picked_road"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="10dp"
+        android:text="동반 여부"
+        android:textSize="22sp" />
+
+</RelativeLayout>
