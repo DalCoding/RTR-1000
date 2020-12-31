@@ -1,4 +1,4 @@
-package org.techtown.test1;
+ package org.techtown.test1;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -34,6 +34,5 @@ public class MainActivity extends AppCompatActivity {
 
 
         FloatingActionButton button = findViewById(R.id.mainFloatingBtn);
-
     }
 }

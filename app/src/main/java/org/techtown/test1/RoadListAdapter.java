@@ -58,9 +58,9 @@ public class RoadListAdapter extends RecyclerView.Adapter<RoadListAdapter.ViewHo
         public ViewHolder(View itemView) {
             super(itemView);
 
-            road_title = itemView.findViewById(R.id.road_title);
-            road_tag = itemView.findViewById(R.id.road_tag);
-            road_period = itemView.findViewById(R.id.road_period);
+            road_title = itemView.findViewById(R.id.mainRoadTitle);
+            road_tag = itemView.findViewById(R.id.mainRoadTag);
+            road_period = itemView.findViewById(R.id.mainRoadPeriod);
         }
 
         public void setItem(RoadList item) {
