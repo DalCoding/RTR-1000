@@ -16,7 +16,7 @@
         android:textSize="18sp" />
 
     <Switch
-        android:id="@+id/pushSwitch1"
+        android:id="@+id/pushEventSwitch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:track="@drawable/switch_track_selector"
@@ -28,7 +28,7 @@
         android:textSize="16sp"/>
 
     <Switch
-        android:id="@+id/pushSwitch2"
+        android:id="@+id/pushLikeSwitch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:track="@drawable/switch_track_selector"
@@ -40,7 +40,7 @@
         android:textSize="16sp"/>
 
     <Switch
-        android:id="@+id/pushSwitch3"
+        android:id="@+id/pushCommentSwitch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:track="@drawable/switch_track_selector"
@@ -52,7 +52,7 @@
         android:textSize="16sp"/>
 
     <Switch
-        android:id="@+id/pushSwitch4"
+        android:id="@+id/pushAddInfoSwitch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:track="@drawable/switch_track_selector"

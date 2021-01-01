@@ -15,7 +15,7 @@
         android:paddingRight="20dp">
 
         <de.hdodenhof.circleimageview.CircleImageView
-            android:id="@+id/alarmLikeProfileImg"
+            android:id="@+id/alarmAddInfoProfileImg"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginTop="10dp"
@@ -24,33 +24,33 @@
 
 
         <TextView
-            android:id="@+id/alarmLikeUserName"
+            android:id="@+id/alarmAddInfoUserName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
-            android:layout_toRightOf="@+id/alarmLikeProfileImg"
+            android:layout_toRightOf="@+id/alarmAddInfoProfileImg"
             android:text="uername"
             android:textSize="16sp" />
 
         <ImageView
-            android:id="@+id/alarmLikeUserLevel"
+            android:id="@+id/alarmAddInfoUserLevel"
             android:layout_width="20dp"
             android:layout_height="20dp"
             android:layout_marginLeft="5dp"
             android:layout_marginTop="12dp"
-            android:layout_toRightOf="@+id/alarmLikeUserName"
+            android:layout_toRightOf="@+id/alarmAddInfoUserName"
             android:scaleType="fitXY"
             app:srcCompat="@drawable/graduationhat" />
 
         <TextView
-            android:id="@+id/alarmLikeContents"
+            android:id="@+id/alarmAddInfoContents"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/alarmLikeUserName"
+            android:layout_below="@+id/alarmAddInfoUserName"
             android:layout_marginLeft="10dp"
-            android:layout_toRightOf="@+id/alarmLikeProfileImg"
-            android:text="'제목(8글자)'를(을) 좋아합니다."
+            android:layout_toRightOf="@+id/alarmAddInfoProfileImg"
+            android:text="'제목(8글자)'에 정보추가를 남겼습니다."
             android:textSize="16sp" />
 
 
